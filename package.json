@@ -1,0 +1,33 @@
+{
+  "name": "ts-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc --build",
+    "seed": "node --experimental-json-modules dist/seed.js",
+    "start": "node --experimental-json-modules dist/app.js",
+    "prebuild": "jest",
+    "watch": "tsc --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/jest": "^27.0.2",
+    "@types/sqlite3": "^3.1.7",
+    "babel-jest": "^27.3.1",
+    "ts-jest": "^27.0.5",
+    "ts-loader": "^9.2.6",
+    "typescript": "^4.4.3"
+  },
+  "dependencies": {
+    "async": "^3.2.1",
+    "jest": "^27.2.4",
+    "sqlite3": "^5.0.2"
+  }
+}

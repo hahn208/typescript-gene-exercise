@@ -1,0 +1,22 @@
+{
+    "db": {
+        "file": "ts-demo.db",
+        "table": {
+            "customer": "Customers",
+            "dna": "DNA"
+        },
+        "schema": {
+            "customer": {
+                "customerID": "id",
+                "email": "email_addr",
+                "firstName": "first_name"
+            },
+            "dna": {
+                "dnaID": "id",
+                "customerID": "customer_id",
+                "sequence": "sequence",
+                "order": "order"
+            }
+        }
+    }
+}
